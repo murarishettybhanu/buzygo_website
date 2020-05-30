@@ -1,0 +1,123 @@
+#header {
+  background: #000812;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#navbarNav a {
+  color: white;
+}
+
+u {
+  text-decoration: none;
+  border-bottom: 8px solid #FDB473;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+#contact-footer {
+  background: url("/images/contact_bg.png");
+}
+
+.card-header {
+  background-color: #F2994A;
+}
+
+.card-header h4 {
+  color: white
+}
+
+.card {
+  background-color: #F2F2F2;
+}
+
+#HIW {
+  background-color: #333333;
+}
+
+#HIW h1 {
+  color: white;
+}
+
+#footer {
+  background-color: #333333;
+}
+
+.footer_bottom {
+  color: white;
+}
+
+#business_header {
+  background-image: url("/images/business_header.png");
+}
+
+#business_header h2 {
+  color: white;
+}
+
+#business_nav {
+  background-color: black;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #laptop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #laptop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #laptop {
+    display: block;
+  }
+
+  #mobile {
+    display: none;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #laptop {
+    display: block;
+  }
+
+  #mobile {
+    display: none;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #laptop {
+    display: block;
+  }
+
+  #mobile {
+    display: none;
+  }
+}
