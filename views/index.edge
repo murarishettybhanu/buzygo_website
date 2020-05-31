@@ -2,9 +2,22 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156340726-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156340726-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buzygo</title>
+    <meta name="description"
+        content="Connect with branded stores, find offers, interact with branded stores for product information, suggestions, reservations and queries and know what the store has for you.">
+    <meta name="keywords"
+        content="Connect with branded stores, find offers, interact with branded stores for product information, suggestions, reservations and queries and know what the store has for you.">
+    <title>Buzygo - Branded stores as Friends </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -47,7 +60,7 @@
     @endif
     <div id="header" style="overflow-x: hidden;">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="/"><img src="/images/logo.png" alt="" width="45" height="65"></a>
+            <a href="/"><img src="/images/logo.png" alt="" width="65" height="65"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" style="font-size:24px;color:white"></i>
@@ -127,14 +140,15 @@
         </div>
     </div>
     <div class="bg_white pb-5 pt-3">
-        <h1 class="text-center"><u>Are you a business ? Visit</u></h1>
+        <h1 class="text-center d-none d-sm-block"><u>Are you a business? Visit</u></h1>
+        <h3 class="text-center d-block d-sm-none"><u>Are you a business? Visit</u></h3>
         <a href="/business"><button class="mt-4 btn btn-primary p-3 mx-auto d-block pl-2 pr-2"
                 style="border-radius: 20px;">Buzygo
                 Business</button></a>
     </div>
     <div id="contact-footer">
         <div class="container pt-5 pb-5">
-            <div class="card" style="width: 18rem;">
+            <div class="card border-0" style="width: 18rem;">
                 <div class="card-header pt-3">
                     <h4><b>Contact Us</b></h4>
                 </div>
@@ -154,20 +168,32 @@
     </div>
     <div id="footer" class="pt-4 pb-3">
         <div class="container form-inline">
-            <img src="/images/logo.png" alt="" width="45" height="65">
+            <img src="/images/logo.png" alt="" width="65" height="65">
             <div class="ml-auto d-block form-inline">
-                <img src="/images/dummy_social.png" alt="" height="50px" width="50px">
-                <img src="/images/dummy_social.png" alt="" height="50px" width="50px">
-                <img src="/images/dummy_social.png" alt="" height="50px" width="50px">
-                <img src="/images/dummy_social.png" alt="" height="50px" width="50px">
+                <a target="_blank"
+                    href="https://www.facebook.com/Buzygo-103409168063853/?business_id=646781072541917"><img
+                        src="/images/fb.png" alt="" height="50px" width="50px"> </a>
+                <a target="_blank" href="https://www.instagram.com/buzygo/?hl=en"><img src="/images/insta.png" alt=""
+                        height="50px" width="50px"></a>
+                <a target="_blank" href="https://in.linkedin.com/"><img src="/images/linkedin.png" alt="" height="50px"
+                        width="50px">
+                </a>
             </div>
         </div>
         <div class="container mt-3">
             <div class="row footer_bottom">
-                <div class="col-md-3">Privacy Policy</div>
-                <div class="col-md-3">About us</div>
-                <div class="col-md-3">Terms and Conditions</div>
-                <div class="col-md-3">Buzygo Business</div>
+                <div class="col-md-3"><a target="_blank" href="/docs/Buzygo Privacy Policy.pdf"
+                        style="color:white">Privacy Policy</a>
+                </div>
+                <div class="col-md-3"><a target="_blank" href="/docs/Buzygo About Us.pdf" style="color:white">About
+                        us</a>
+                </div>
+                <div class="col-md-3"><a target="_blank" href="/docs/Buzygo Terms and Conditions Users.pdf"
+                        style="color:white">Terms
+                        and Conditions</a>
+                </div>
+                <div class="col-md-3"><a href="/business" style="color:white">Buzygo Business</a>
+                </div>
             </div>
         </div>
     </div>
